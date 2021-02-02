@@ -68,7 +68,7 @@ if(BUILD_COVERAGE)
 
 
   list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-  find_package(codecov)
+  
   # TODO: change template word to project name and delete this comment
   add_coverage(template)
   add_coverage(tests)
