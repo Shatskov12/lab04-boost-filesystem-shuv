@@ -70,7 +70,7 @@ if(BUILD_COVERAGE)
   list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
   # TODO: change template word to project name and delete this comment
-  
+
   list(APPEND LCOV_REMOVE_PATTERNS "'${PROJECT_SOURCE_DIR}/tests/*'")
-  coverage_evaluate()
+  
 endif()
